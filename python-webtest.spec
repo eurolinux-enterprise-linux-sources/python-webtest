@@ -6,7 +6,7 @@
 
 Name:           python-webtest
 Version:        1.3.4
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Helper to test WSGI applications
 
 Group:          Development/Languages
@@ -110,6 +110,9 @@ popd
 %endif
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.3.4-6
+- Mass rebuild 2013-12-27
+
 * Fri Apr  5 2013 Luke Macken <lmacken@redhat.com> - 1.3.4-5
 - Made the python3 subpackage require python-webob instead of python-webob1.2
 
